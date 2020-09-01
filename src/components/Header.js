@@ -3,10 +3,13 @@ import Navbar from './Navbar'
 
 const Header = () => {
   return (
-    <header>
-      <h1>Logo</h1>
+    <header className='global-header'>
+      <div className='global-header-content'>
+        <h1>Logo</h1>
 
-      <Navbar />
+        <Navbar />
+      </div>
+      
     </header>
   )
 }

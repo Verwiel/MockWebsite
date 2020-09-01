@@ -1,0 +1,23 @@
+.global-header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  background-color: rgba(151, 151, 151, 0.555);
+  transition: all .25s ease-in-out;
+  &:hover {
+    background-color: white;
+  }
+
+  &-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1160px;
+  }
+}
