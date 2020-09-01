@@ -10,8 +10,11 @@
   width: 100vw;
   background-color: rgba(151, 151, 151, 0.555);
   transition: all .25s ease-in-out;
-  &:hover {
+  &:hover, .content {
     background-color: white;
+    a {
+      color: black;
+    }
   }
 
   &-content {
@@ -19,5 +22,10 @@
     justify-content: space-between;
     align-items: center;
     width: 1160px;
+    a {
+      color: white;
+      text-decoration: none;
+    }
+    
   }
 }
